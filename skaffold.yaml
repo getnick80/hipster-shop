@@ -18,27 +18,27 @@ build:
   tagPolicy:
     gitCommit: {}
   artifacts:
-  - imageName: gcr.io/microservices-demo-app/emailservice
+  - imageName: gcr.io/testproject100000/emailservice
     workspace: src/emailservice
-  - imageName: gcr.io/microservices-demo-app/productcatalogservice
+  - imageName: gcr.io/testproject100000/productcatalogservice
     workspace: src/productcatalogservice
-  - imageName: gcr.io/microservices-demo-app/recommendationservice
+  - imageName: gcr.io/testproject100000/recommendationservice
     workspace: src/recommendationservice
-  - imageName: gcr.io/microservices-demo-app/shippingservice
+  - imageName: gcr.io/testproject100000/shippingservice
     workspace: src/shippingservice
-  - imageName: gcr.io/microservices-demo-app/checkoutservice
+  - imageName: gcr.io/testproject100000/checkoutservice
     workspace: src/checkoutservice
-  - imageName: gcr.io/microservices-demo-app/paymentservice
+  - imageName: gcr.io/testproject100000/paymentservice
     workspace: src/paymentservice
-  - imageName: gcr.io/microservices-demo-app/currencyservice
+  - imageName: gcr.io/testproject100000/currencyservice
     workspace: src/currencyservice
-  - imageName: gcr.io/microservices-demo-app/cartservice
+  - imageName: gcr.io/testproject100000/cartservice
     workspace: src/cartservice
-  - imageName: gcr.io/microservices-demo-app/frontend
+  - imageName: gcr.io/testproject100000/frontend
     workspace: src/frontend
-  - imageName: gcr.io/microservices-demo-app/loadgenerator
+  - imageName: gcr.io/testproject100000/loadgenerator
     workspace: src/loadgenerator
-  - imageName: gcr.io/microservices-demo-app/adservice
+  - imageName: gcr.io/testproject100000/adservice
     workspace: src/adservice
 deploy:
   kubectl:
